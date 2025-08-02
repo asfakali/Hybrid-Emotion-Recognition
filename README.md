@@ -35,7 +35,7 @@ This paper introduces a **hybrid EEG-based emotion recognition framework** that 
 ---
 
 ## 🔧 Methodology
-
+![architecture](https://github.com/asfakali/Hybrid-Emotion-Recognition/blob/main/assets/emotion_eann.png)
 ### 🧩 1. Discrete Wavelet Transform (DWT)
 - Input EEG signal decomposed into sub-bands: LL, LH, HL, HH
 - **LL band** used for reduced noise and enhanced feature quality.
@@ -58,6 +58,7 @@ L_{MAC} = \lambda_1 \cdot L_{CE} + \lambda_2 \cdot L_{align}
 * Encourages feature **coherence** between modalities.
 * Helps reduce **redundancy** and improves **generalization**.
 
+![loss](https://github.com/asfakali/Hybrid-Emotion-Recognition/blob/main/assets/loss_eann.png)
 ---
 
 ## 📚 Datasets
@@ -85,7 +86,7 @@ L_{MAC} = \lambda_1 \cdot L_{CE} + \lambda_2 \cdot L_{align}
 | **Brainwave** | 95.99        | N/A          |
 
 * t-SNE plots show **well-separated class clusters** across all datasets.
-
+![tsne](https://github.com/asfakali/Hybrid-Emotion-Recognition/blob/main/assets/tsne_eann.png)
 ---
 
 ## 🧪 Ablation Study
