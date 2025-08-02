@@ -117,10 +117,12 @@ L_{MAC} = \lambda_1 \cdot L_{CE} + \lambda_2 \cdot L_{align}
 If you use this work in your research, please cite:
 
 ```bibtex
-@article{ali2025eeg,
-  title={EEG-based Hybrid Emotion Recognition Model with Statistical-Wavelet Features and Modality-Agnostic Loss},
+@inproceedings{ali2025eeg,
+  title={EEG-Based Hybrid Emotion Recognition Model with Statistical-Wavelet Features and Modality-Agnostic Loss},
   author={Ali, Asfak and Banerjee, Jotiraditya and Saha, Debam and Dutta, Akash and Schwenker, Friedhelm and Sarkar, Ram},
-  journal={To appear in EAAAI/EANN 2025},
-  year={2025}
+  booktitle={International Conference on Engineering Applications of Neural Networks},
+  pages={128--140},
+  year={2025},
+  organization={Springer}
 }
 ```
